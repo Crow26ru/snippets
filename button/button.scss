@@ -1,0 +1,42 @@
+.button {
+  border: none;
+  padding: 0 10px;
+
+  font-size: ;
+  line-height: ;
+  text-align: center;
+  color: ;
+
+  background-color: ;
+
+  appearance: none;
+  cursor: pointer;
+}
+
+.button,
+.button:hover,
+.button:focus,
+.button:active {
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.button:hover {
+  color: ;
+
+  background-color: ;
+}
+
+.button:focus {
+  text-decoration: underline;
+  color: ;
+
+  background-color: ;
+
+  outline: none;
+}
+
+.button:active {
+  color: ;
+
+  background-color: ;
+}

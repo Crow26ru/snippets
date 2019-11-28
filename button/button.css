@@ -1,0 +1,43 @@
+.button {
+  border: none;
+  padding: 0 10px;
+
+  text-align: center;
+
+  appearance: none;
+  cursor: pointer;
+
+  /* --- Для визуала --- */
+  background-color: #08c;
+  font-size: 16px;
+  color: #fff;
+}
+
+.button,
+.button:hover,
+.button:focus,
+.button:active {
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.button:hover {
+  /* --- Для визуала --- */
+  background-color: rgb(36, 161, 46);
+  color: rgb(209, 183, 112);
+}
+
+.button:focus {
+  text-decoration: underline;
+
+  outline: none;
+
+  /* --- Для визуала --- */
+  background-color: #C29200;
+  color: #000;
+}
+
+.button:active {
+  /* --- Для визуала --- */
+  background-color: #666;
+  color: #ccc;
+}
